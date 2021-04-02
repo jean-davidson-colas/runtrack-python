@@ -4,19 +4,16 @@ Enoncé:
 fonction des paramètres d’entrées, (width, height), par exemple :
 draw_rectangle(10, 3)
 """
-import matplotlib.pyplot as plt
+width = input("entrer la longueur")
 
-def rectangle1(self, event):
+height = input("entrer la largeur")
+AB = "-"
+ba = "|"
+def draw_rectangle(width,height):
+ AB * width
+ ba * height
+ print("la longueur ")* width
+ print("la largeur ")* height
+ 
 
-        painter = QPainter(self)
-
-        painter.setPen(QPen(Qt.black,  5, Qt.DotLine))
-
-        #painter.setBrush(QBrush(Qt.yellow, Qt.SolidPattern))
-
-        painter.drawRect(40, 40, 400, 200)
-
-        print(rectangle1())
-        plt.show()
-
-        
+draw_rectangle(width,height)
